@@ -120,12 +120,12 @@ namespace ass01
 
                 #region question 10 
                 //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
-                //variable, and print both.
-                //int copies = 100;
-                //object obj = copies;
-                //int newcopies = (int)obj;
-                //Console.WriteLine(obj);
-                //Console.WriteLine(newcopies);
+                variable, and print both.
+                int copies = 100;
+                object obj = copies;
+                int newcopies = (int)obj;
+                Console.WriteLine(obj);
+                Console.WriteLine(newcopies);
 
                 #endregion
 
