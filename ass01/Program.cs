@@ -28,13 +28,13 @@ namespace ass01
             //////Using the Book class above, print the result of calling ToString(), Equals() (compare book
             //// with itself), GetHashCode(), and GetType() on book.
 
-            //book mybook = new book();
-            //mybook.title = "atomic habits";
-            //mybook.pages = 300;
-            //Console.WriteLine(mybook.ToString());
-            //Console.WriteLine(mybook.Equals(mybook));
-            //Console.WriteLine(mybook.GetHashCode());
-            //Console.WriteLine(mybook.GetType());
+            book mybook = new book();
+            mybook.title = "atomic habits";
+            mybook.pages = 300;
+            Console.WriteLine(mybook.ToString());
+            Console.WriteLine(mybook.Equals(mybook));
+            Console.WriteLine(mybook.GetHashCode());
+            Console.WriteLine(mybook.GetType());
             #endregion
 
             #region question 3
