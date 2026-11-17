@@ -39,8 +39,8 @@ namespace ass01
 
             #region question 3
             ////Look at the line below.Is it a compile - time error, a runtime error, or a logical error? Fix it.
-            ////   int pages = "464"; // compile-time error
-            //int pages = 464; // fixed
+            //   int pages = "464"; // compile-time error
+            int pages = 464; // fixed
             #endregion
 
             #region question 4
