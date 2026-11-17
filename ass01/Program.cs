@@ -109,11 +109,11 @@ namespace ass01
                 #region question 9 
                 //Given int pages = 464;, convert it into a string using ToString() and print its type using
                 // GetType() to prove it's now a string.
-                //int pages = 464;
-                //string invalidpage = pages.ToString();
-                //Console.WriteLine(pages);
-                //Console.WriteLine(invalidpage);
-                //Console.WriteLine(invalidpage.GetType());
+                int pages = 464;
+                string invalidpage = pages.ToString();
+                Console.WriteLine(pages);
+                Console.WriteLine(invalidpage);
+                Console.WriteLine(invalidpage.GetType());
 
 
                 #endregion
@@ -163,6 +163,6 @@ namespace ass01
                 #endregion
 
 
-        }
+            }
     }
 }
