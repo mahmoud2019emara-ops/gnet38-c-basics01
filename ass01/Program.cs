@@ -132,10 +132,10 @@ namespace ass01
                 #region question 11
                 //Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its
                 //value.
-                //int? year = null ;
-                //Console.WriteLine(year);
-                // year = 2023;
-                //Console.WriteLine(year);
+                int? year = null;
+                Console.WriteLine(year);
+                year = 2023;
+                Console.WriteLine(year);
                 #endregion
 
                 #region question 12
@@ -164,5 +164,5 @@ namespace ass01
 
 
             }
-    }
+        }
 }
