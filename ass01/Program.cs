@@ -141,10 +141,10 @@ namespace ass01
                 #region question 12
                 //Declare a Book? book = null;. Use?.to safely read book.Title without crashing the
                 //program, and print the result.
-                //book? book = null;
-                //string? booktitle = book?.title;
-                //Console.WriteLine(booktitle);
-                //Console.WriteLine(book?.title ?? "Unknown Title");
+                book? book = null;
+                string? booktitle = book?.title;
+                Console.WriteLine(booktitle);
+                Console.WriteLine(book?.title ?? "Unknown Title");
                 #endregion
 
                 #region question 13
