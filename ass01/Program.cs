@@ -65,10 +65,10 @@ namespace ass01
 
             #region question 5
             ////Declare an int pages = 300; then store it in a double variable without using a cast.
-            //int pages = 300;
-            //double pagesDouble = pages;
-            //Console.WriteLine(pages);
-            //Console.WriteLine(pagesDouble);
+            int pages = 300;
+            double pagesDouble = pages;
+            Console.WriteLine(pages);
+            Console.WriteLine(pagesDouble);
             #endregion
 
             #region question 6
@@ -162,6 +162,6 @@ namespace ass01
             #endregion
 
 
-            }
+        }
     }
 }
