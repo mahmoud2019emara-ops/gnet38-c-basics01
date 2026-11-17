@@ -81,10 +81,10 @@ namespace ass01
 
             #region question 7
             //Given string pagesText = "464";, convert it into an int using the Convert class.
-            //string text = "464";
-            //int x = Convert.ToInt32(text);
-            //Console.WriteLine(text);
-            //Console.WriteLine(x);
+            string text = "464";
+            int x = Convert.ToInt32(text);
+            Console.WriteLine(text);
+            Console.WriteLine(x);
             #endregion
 
             #region question 8
