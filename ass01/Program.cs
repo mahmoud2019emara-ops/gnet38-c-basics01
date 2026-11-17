@@ -15,15 +15,14 @@ namespace ass01
         static void Main(string[] args)
         {
 
-            #region question 1
-            ////Create a Book class with a Title (string) and Pages (int). Create a Book object and store it
-            ////in a variable of type object.Print it.
-
-            //book mybook = new book();
-            //mybook.title = "atomic habits";
-            //mybook.pages = 300;
-            //Console.WriteLine($"Title: {mybook.title}, Pages: {mybook.pages}");
-            #endregion 
+            #region question 1 
+            //Create a Book class with a Title(string) and Pages(int). Create a Book object and store it
+            // in a variable of type object.Print it.
+            book mybook = new book();
+            mybook.title = "atomic habits";
+            mybook.pages = 300;
+            Console.WriteLine($"Title: {mybook.title}, Pages: {mybook.pages}");
+            #endregion
 
             #region question 2
             //////Using the Book class above, print the result of calling ToString(), Equals() (compare book
