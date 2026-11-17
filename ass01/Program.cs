@@ -88,78 +88,79 @@ namespace ass01
             #endregion
 
             #region question 8
-            ////Given string yearText = "2023";, convert it using int.Parse().Then given string badText =
-            ////"abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
-            //// string yeartext = "2023";
-            ////int validage = int.Parse(yeartext);
-            ////Console.WriteLine(yeartext);
-            ////Console.WriteLine(validage);
-            ////string badtext = "abc";
-            ////bool isparsed = int.TryParse(badtext, out int valid);
-            ////if (isparsed == true) {
-            ////    Console.WriteLine(valid);
-            ////}
-            ////else
-            ////{
-            ////    Console.WriteLine("Invalid number");
-            /////
+            //Given string yearText = "2023";, convert it using int.Parse().Then given string badText =
+            //"abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
+            string yeartext = "2023";
+            int validage = int.Parse(yeartext);
+            Console.WriteLine(yeartext);
+            Console.WriteLine(validage);
+            string badtext = "abc";
+            bool isparsed = int.TryParse(badtext, out int valid);
+            if (isparsed == true)
+            {
+                Console.WriteLine(valid);
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            /
             #endregion
 
-            #region question 9 
-            //Given int pages = 464;, convert it into a string using ToString() and print its type using
-            // GetType() to prove it's now a string.
-            //int pages = 464;
-            //string invalidpage = pages.ToString();
-            //Console.WriteLine(pages);
-            //Console.WriteLine(invalidpage);
-            //Console.WriteLine(invalidpage.GetType());
+                #region question 9 
+                //Given int pages = 464;, convert it into a string using ToString() and print its type using
+                // GetType() to prove it's now a string.
+                //int pages = 464;
+                //string invalidpage = pages.ToString();
+                //Console.WriteLine(pages);
+                //Console.WriteLine(invalidpage);
+                //Console.WriteLine(invalidpage.GetType());
 
 
-            #endregion
+                #endregion
 
-            #region question 10 
-            //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
-            //variable, and print both.
-            //int copies = 100;
-            //object obj = copies;
-            //int newcopies = (int)obj;
-            //Console.WriteLine(obj);
-            //Console.WriteLine(newcopies);
+                #region question 10 
+                //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
+                //variable, and print both.
+                //int copies = 100;
+                //object obj = copies;
+                //int newcopies = (int)obj;
+                //Console.WriteLine(obj);
+                //Console.WriteLine(newcopies);
 
-            #endregion
+                #endregion
 
-            #region question 11
-            //Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its
-            //value.
-            //int? year = null ;
-            //Console.WriteLine(year);
-            // year = 2023;
-            //Console.WriteLine(year);
-            #endregion
+                #region question 11
+                //Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its
+                //value.
+                //int? year = null ;
+                //Console.WriteLine(year);
+                // year = 2023;
+                //Console.WriteLine(year);
+                #endregion
 
-            #region question 12
-            //Declare a Book? book = null;. Use?.to safely read book.Title without crashing the
-            //program, and print the result.
-            //book? book = null;
-            //string? booktitle = book?.title;
-            //Console.WriteLine(booktitle);
-            //Console.WriteLine(book?.title ?? "Unknown Title");
-            #endregion
+                #region question 12
+                //Declare a Book? book = null;. Use?.to safely read book.Title without crashing the
+                //program, and print the result.
+                //book? book = null;
+                //string? booktitle = book?.title;
+                //Console.WriteLine(booktitle);
+                //Console.WriteLine(book?.title ?? "Unknown Title");
+                #endregion
 
-            #region question 13
-            //string? title = null;
-            //Console.WriteLine(title ?? "Untitled");
-            //title ??= "Untitled";
-            //Console.WriteLine(title);
-            #endregion
+                #region question 13
+                //string? title = null;
+                //Console.WriteLine(title ?? "Untitled");
+                //title ??= "Untitled";
+                //Console.WriteLine(title);
+                #endregion
 
-            #region question 14
-            //Given string? name = "Ahmed"; (you are sure it's not null here), assign it to a non-nullable
-            // string confirmedName using the ! operator.
-            //string? name = "Ahmed";
-            //string confirmedName = name!;
-            //Console.WriteLine(confirmedName);
-            #endregion
+                #region question 14
+                //Given string? name = "Ahmed"; (you are sure it's not null here), assign it to a non-nullable
+                // string confirmedName using the ! operator.
+                //string? name = "Ahmed";
+                //string confirmedName = name!;
+                //Console.WriteLine(confirmedName);
+                #endregion
 
 
         }
