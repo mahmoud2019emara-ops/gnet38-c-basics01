@@ -46,20 +46,20 @@ namespace ass01
             #region question 4
             //Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot
             //   divide by zero", and then prints "Done" in a finally block.
-            //int x = 10;
-            //int y = 0;
-            //try 
-            //{
-            //    int result = x / y;
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine("Cannot divide by zero");
-            //}
-            //finally
-            //{
-            //    Console.WriteLine("Done");
-            //}
+            int x = 10;
+            int y = 0;
+            try
+            {
+                int result = x / y;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
 
             #endregion
 
@@ -162,6 +162,6 @@ namespace ass01
             #endregion
 
 
-        }
+            }
     }
 }
