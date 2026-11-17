@@ -157,9 +157,9 @@ namespace ass01
                 #region question 14
                 //Given string? name = "Ahmed"; (you are sure it's not null here), assign it to a non-nullable
                 // string confirmedName using the ! operator.
-                //string? name = "Ahmed";
-                //string confirmedName = name!;
-                //Console.WriteLine(confirmedName);
+                string? name = "Ahmed";
+                string confirmedName = name!;
+                Console.WriteLine(confirmedName);
                 #endregion
 
 
