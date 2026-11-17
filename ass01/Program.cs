@@ -148,10 +148,10 @@ namespace ass01
                 #endregion
 
                 #region question 13
-                //string? title = null;
-                //Console.WriteLine(title ?? "Untitled");
-                //title ??= "Untitled";
-                //Console.WriteLine(title);
+                string? title = null;
+                Console.WriteLine(title ?? "Untitled");
+                title ??= "Untitled";
+                Console.WriteLine(title);
                 #endregion
 
                 #region question 14
