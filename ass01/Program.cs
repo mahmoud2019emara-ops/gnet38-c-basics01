@@ -73,10 +73,10 @@ namespace ass01
 
             #region question 6
             //Declare a double price = 49.99; then convert it into an int using a cast.
-            //double price = 49.99;
-            //int x = (int)price;
-            //Console.WriteLine(price);
-            //Console.WriteLine(x);
+            double price = 49.99;
+            int x = (int)price;
+            Console.WriteLine(price);
+            Console.WriteLine(x);
             #endregion
 
             #region question 7
